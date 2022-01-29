@@ -51,6 +51,7 @@ final List<String> years = [
   "2019",
   "2020",
   "2021",
+  "2022",
 ];
 
 final List<String> birdTypes = [
