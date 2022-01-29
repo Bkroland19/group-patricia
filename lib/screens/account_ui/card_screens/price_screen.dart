@@ -16,7 +16,7 @@ class PriceScreen extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: Text("Change product prices"),
-          backgroundColor: Color(0XFF35D4C0),
+          backgroundColor: Color.fromARGB(255, 20, 199, 219),
         ),
         body: ListView(
           // crossAxisAlignment: CrossAxisAlignment.start,

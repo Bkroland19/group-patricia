@@ -12,18 +12,18 @@ void main() {
     () {
       test("\nUserProv class tests", () {
         UserProv user = UserProv();
-        user.setName("Emmanuel");
-        user.setEmail("fake@gmail.com");
+        user.setName("bkroland");
+        user.setEmail("bkroland19@gmail.com");
         user.setPassword("password");
-        user.setPhoneNumber("08012345678");
+        user.setPhoneNumber("0703800581");
         user.setUserRole(UserType.farmer);
         expect(
           user.name,
-          equals("Emmanuel"),
+          equals("bkroland"),
         );
         expect(
           user.email,
-          equals("fake@gmail.com"),
+          equals("bkroland19@gmail.com"),
         );
         expect(
           user.password,
@@ -31,7 +31,7 @@ void main() {
         );
         expect(
           user.phoneNumber,
-          equals("08012345678"),
+          equals("0703800581"),
         );
         expect(
           user.role,
@@ -88,9 +88,9 @@ void main() {
 
       test("\nOrderProv class tests", () {
         OrderProv order = OrderProv();
-        order.setCustomerName("Joseph Aminu");
-        order.setCustomerAddress("No3. Classic Estate");
-        order.setCustomerContact(("09012345678"));
+        order.setCustomerName("Kaweesi Paul");
+        order.setCustomerAddress("No3. Mpigi");
+        order.setCustomerContact(("0773078860"));
         for (int i = 0; i < 3; i++) {
           order.addCratesOfEggs();
           order.addChicken();

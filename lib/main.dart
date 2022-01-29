@@ -80,11 +80,11 @@ class MyApp extends StatelessWidget {
           // primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: prefs.getString("userID") == null
-            ? Login()
-            : prefs.getString("role") == "farmer"
-                ? Layout()
-                : DistributorHome(),
+        home:  Layout(),
+        
+        //prefs.getString("userID") == null
+           // : prefs.getString("role") == "farmer"
+               // :,
       ),
     );
   }

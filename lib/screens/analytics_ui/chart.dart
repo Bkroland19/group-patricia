@@ -68,11 +68,11 @@ class Chart extends StatelessWidget {
                       bottomTitles: SideTitles(
                         showTitles: true,
                         reservedSize: 22,
-                        getTextStyles: (value) => const TextStyle(
-                          color: Color(0xff72719b),
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),
+                        // getTextStyles: (value) => const TextStyle(
+                        //   color: Color(0xff72719b),
+                        //   fontWeight: FontWeight.bold,
+                        //   fontSize: 16,
+                        // ),
                         margin: 20,
                         getTitles: (value) {
                           switch (value.toInt()) {
@@ -100,11 +100,11 @@ class Chart extends StatelessWidget {
                       ),
                       leftTitles: SideTitles(
                         showTitles: true,
-                        getTextStyles: (value) => const TextStyle(
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 14,
-                        ),
+                        // getTextStyles: (value) => const TextStyle(
+                        //   color: Colors.black,
+                        //   fontWeight: FontWeight.bold,
+                        //   fontSize: 14,
+                        // ),
                         getTitles: (value) {
                           switch (value.toInt()) {
                             case 0:

@@ -21,7 +21,7 @@ List<FieldValidator<dynamic>> errorMessages(
     );
   } else if (formField == FieldType.phone) {
     messages.add(
-      MinLengthValidator(11, errorText: "$text must be 11 digits long"),
+      MinLengthValidator(10, errorText: "$text must be 10 digits long"),
     );
   }
   return messages;
