@@ -12,7 +12,7 @@ class OrderView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0XFF35D4C0),
+        backgroundColor: Color.fromARGB(255, 70, 196, 129),
         automaticallyImplyLeading: false,
         title: Text("Welcome, ${prefs.getString("name")}"),
       ),

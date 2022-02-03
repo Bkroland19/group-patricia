@@ -17,8 +17,6 @@ import 'package:poultry/widgets/scroll_behaviour.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-//import 'package:firebase_database/firebase_database.dart';
-
 // import 'package:path/path.dart';
 // import 'package:excel/excel.dart';
 
@@ -77,7 +75,7 @@ class MyApp extends StatelessWidget {
             child: child,
           );
         },
-        title: 'Flutter Demo',
+        title: 'poultry',
         theme: ThemeData(
           // primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,

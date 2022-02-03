@@ -68,7 +68,7 @@ class _StockState extends State<Stock> {
       color: Color(0XFF35D4C0),
       onRefresh: updateStockUI,
       child: Padding(
-        padding: EdgeInsets.symmetric(vertical: 5.0),
+        padding: EdgeInsets.symmetric(vertical: 3.0),
         child: ListView(
           children: [
             StockCard(

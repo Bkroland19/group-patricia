@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1049465720730",
+    "firebase_url": "https://poultry-ug-default-rtdb.firebaseio.com",
+    "project_id": "poultry-ug",
+    "storage_bucket": "poultry-ug.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049465720730:android:04d4aa2d29bd53d0027423",
+        "android_client_info": {
+          "package_name": "com.example.poultry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049465720730-gik4u0hcbff7bejibiq5jurbp9qa1ioi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnu3N8Jkr1WHXaOjbk1Xcv2EXKj8Vab74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049465720730-gik4u0hcbff7bejibiq5jurbp9qa1ioi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
